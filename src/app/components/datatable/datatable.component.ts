@@ -26,7 +26,7 @@ export class DataTableComponent implements OnInit, OnDestroy {
     // start interval when component is initialized call every 10 second.
     this.getData();
     this.interval = setInterval(() => {
-      // this.getData();
+      this.getData();
     }, 10000);
   }
 
